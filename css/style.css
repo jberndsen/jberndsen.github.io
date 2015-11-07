@@ -1,0 +1,26 @@
+/* IE10 viewport fix */
+@-ms-viewport {
+	width: auto !important;
+}
+
+article, aside, figure, footer, header, hgroup, menu, nav, section { 
+	display: block; 
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+	font-family: 'Source Sans Pro', sans-serif;	
+}
+
+
+  h2.two span {
+    background: #fff;
+    position: relative;
+    z-index: 5;
+    padding-right: 15px;
+  }
+  
+  h2.two + p {
+    border-top: solid 1px lightgray;
+    padding-top: 27px;
+    margin-top: -27px;
+  }
